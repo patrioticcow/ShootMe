@@ -16,8 +16,9 @@
     <ignored path="ShootMe.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/res/values/strings.xml" changelist="7693a07b-7850-4ac8-99b1-91c6c523b66d" time="1360266438906" ignored="false" />
-    <file path="/index.html" changelist="7693a07b-7850-4ac8-99b1-91c6c523b66d" time="1360268691152" ignored="false" />
+    <file path="/index.html" changelist="7693a07b-7850-4ac8-99b1-91c6c523b66d" time="1360270693336" ignored="false" />
     <file path="/fragment.java" changelist="7693a07b-7850-4ac8-99b1-91c6c523b66d" time="1360267416631" ignored="false" />
+    <file path="/script.js" changelist="7693a07b-7850-4ac8-99b1-91c6c523b66d" time="1360270408385" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,38 +77,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="cordova-2.3.0.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/www/js/cordova-2.3.0.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1357347072000" expanded="true" signature="137824:137908" placeholder="CREATE TABLE..storage..." />
-                <marker date="1357347072000" expanded="true" signature="137946:137967" placeholder="SELECT * FRO..storage..." />
-                <marker date="1357347072000" expanded="true" signature="138609:138693" placeholder="CREATE TABLE..storage..." />
-                <marker date="1357347072000" expanded="true" signature="138733:138776" placeholder="REPLACE INTO..." />
-                <marker date="1357347072000" expanded="true" signature="139090:139174" placeholder="CREATE TABLE..storage..." />
-                <marker date="1357347072000" expanded="true" signature="139214:139244" placeholder="DELETE FROM ..." />
-                <marker date="1357347072000" expanded="true" signature="139466:139550" placeholder="CREATE TABLE..storage..." />
-                <marker date="1357347072000" expanded="true" signature="139590:139609" placeholder="DELETE FROM ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/xml/config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="135" selection-start="807" selection-end="807" vertical-scroll-proportion="-1.88">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="25" selection-start="837" selection-end="837" vertical-scroll-proportion="0.33526683">
-              <folding />
+            <state line="26" column="65" selection-start="1171" selection-end="1171" vertical-scroll-proportion="0.512761">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,7 +91,7 @@
       <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/www/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="55" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0">
+            <state line="18" column="62" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -134,6 +110,7 @@
         <option value="$PROJECT_DIR$/src/com/shoot/me/MyActivity.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/assets/www/js/jquery-1.8.2.min.js" />
+        <option value="$PROJECT_DIR$/assets/www/config.xml" />
         <option value="$PROJECT_DIR$/assets/www/js/script.js" />
         <option value="$PROJECT_DIR$/assets/www/index.html" />
       </list>
@@ -201,25 +178,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="me" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ShootMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ShootMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
+              <option name="myItemId" value="xml" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -233,11 +196,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="me" />
+              <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -346,12 +305,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\ShootMe\assets" />
       <recent name="C:\xampp\htdocs\ShootMe\assets\www\jquery.mobile-1.2.0" />
       <recent name="C:\xampp\htdocs\ShootMe\assets\www" />
       <recent name="C:\xampp\htdocs\ShootMe\res" />
       <recent name="C:\xampp\htdocs\ShootMe\libs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\ShootMe\assets\www" />
       <recent name="C:\xampp\htdocs\ShootMe\assets\www\js" />
     </key>
   </component>
@@ -627,22 +588,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1357347072000" expanded="true" signature="137824:137908" placeholder="CREATE TABLE..storage..." />
-            <marker date="1357347072000" expanded="true" signature="137946:137967" placeholder="SELECT * FRO..storage..." />
-            <marker date="1357347072000" expanded="true" signature="138609:138693" placeholder="CREATE TABLE..storage..." />
-            <marker date="1357347072000" expanded="true" signature="138733:138776" placeholder="REPLACE INTO..." />
-            <marker date="1357347072000" expanded="true" signature="139090:139174" placeholder="CREATE TABLE..storage..." />
-            <marker date="1357347072000" expanded="true" signature="139214:139244" placeholder="DELETE FROM ..." />
-            <marker date="1357347072000" expanded="true" signature="139466:139550" placeholder="CREATE TABLE..storage..." />
-            <marker date="1357347072000" expanded="true" signature="139590:139609" placeholder="DELETE FROM ..." />
+            <marker date="1357347072000" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..storage..." />
+            <marker date="1357347072000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..storage..." />
+            <marker date="1357347072000" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..storage..." />
+            <marker date="1357347072000" expanded="true" signature="-1:-1" placeholder="REPLACE INTO..." />
+            <marker date="1357347072000" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..storage..." />
+            <marker date="1357347072000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1357347072000" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..storage..." />
+            <marker date="1357347072000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/xml/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="135" selection-start="807" selection-end="807" vertical-scroll-proportion="-1.88">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -652,13 +606,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="68" selection-start="1823" selection-end="1823" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -692,17 +639,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="68" selection-start="1823" selection-end="1823" vertical-scroll-proportion="0.6317568">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/xml/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="135" selection-start="807" selection-end="807" vertical-scroll-proportion="0.29548088">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="55" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0">
+        <state line="18" column="62" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="25" selection-start="837" selection-end="837" vertical-scroll-proportion="0.33526683">
-          <folding />
+        <state line="26" column="65" selection-start="1171" selection-end="1171" vertical-scroll-proportion="0.512761">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
