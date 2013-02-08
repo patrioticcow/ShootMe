@@ -89,19 +89,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="maps.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="maps.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/www/js/maps.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="26" selection-start="2496" selection-end="2507" vertical-scroll-proportion="0.8864926">
+            <state line="61" column="46" selection-start="2276" selection-end="2276" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/www/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="4" selection-start="176" selection-end="176" vertical-scroll-proportion="-90.0">
+            <state line="12" column="30" selection-start="261" selection-end="261" vertical-scroll-proportion="0.27303755">
               <folding />
             </state>
           </provider>
@@ -658,16 +658,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/js/script.js">
+    <entry file="file://$PROJECT_DIR$/assets/www/js/maps.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="4" selection-start="176" selection-end="176" vertical-scroll-proportion="-90.0">
+        <state line="61" column="46" selection-start="2276" selection-end="2276" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/js/maps.js">
+    <entry file="file://$PROJECT_DIR$/assets/www/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="26" selection-start="2496" selection-end="2507" vertical-scroll-proportion="0.8864926">
+        <state line="12" column="30" selection-start="261" selection-end="261" vertical-scroll-proportion="0.27303755">
           <folding />
         </state>
       </provider>

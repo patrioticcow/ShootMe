@@ -10,6 +10,7 @@ function deviceReady() {
     maps.initialize();
 
     window.setTimeout(function() {
+        var maps = new Maps();
         maps.changePosition();
     }, 3000);
 }

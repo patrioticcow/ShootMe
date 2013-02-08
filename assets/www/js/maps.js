@@ -59,7 +59,7 @@ var Maps = (function () {
         */
     };
 
-    Maps.prototype.changePosition = function (marker) {
+    Maps.prototype.changePosition = function () {
 
         var latitude = window.localStorage.getItem("latitude");
         var longitude = window.localStorage.getItem("longitude");
