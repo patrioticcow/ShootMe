@@ -29,6 +29,9 @@
         <additionalNativeLibs />
       </configuration>
     </facet>
+    <facet type="gwt" name="GWT">
+      <configuration />
+    </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
