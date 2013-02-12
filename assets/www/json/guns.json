@@ -1,0 +1,62 @@
+{
+    "pistol": {
+        "1": {
+            "make":"Beretta",
+            "model":"PX4 Storm Compact",
+            "caliber":9,
+            "capacity":12,
+            "range":50,
+            "power":20,
+            "points":30
+        },
+        "2": {
+            "make":"Sig Sauer",
+            "model":"P250 Full Size",
+            "caliber":"9",
+            "capacity":8,
+            "range":100,
+            "power":40,
+            "points":60
+        }
+    },
+    "rifle": {
+        "1": {
+            "make":"Winchester",
+            "model":"Model 94",
+            "caliber":".30-30",
+            "capacity":38,
+            "range":50,
+            "power":20,
+            "points":20
+        },
+        "2": {
+            "make":"Sig",
+            "model":"SG 550",
+            "caliber":"5.56×45mm NATO",
+            "capacity":20,
+            "range":50,
+            "power":20,
+            "points":20
+        }
+    },
+    "shotgun": {
+        "1": {
+            "make":"SPAS",
+            "model":"P12",
+            "caliber":"12",
+            "capacity":8,
+            "range":50,
+            "power":20,
+            "points":20
+        },
+        "2": {
+            "make":"Remington",
+            "model":"Model 11-87 Sportsman",
+            "caliber":"20 guage",
+            "capacity":8,
+            "range":50,
+            "power":20,
+            "points":20
+        }
+    }
+}

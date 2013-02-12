@@ -13,39 +13,47 @@ function deviceReady() {
     var friendLatitude = window.localStorage.getItem("latitude_other");
     var friendLongitude = window.localStorage.getItem("longitude_other");
 
-    //initialize maps
-    maps.initialize(latitude, longitude, 20, 'map_canvas');
+    console.log(latitude+'-'+longitude);
+    console.log(friendLatitude+'-'+friendLongitude);
+    // paint map
+    var gmap = maps.getGeoLocation('#map', 20, latitude, longitude);
 
-    //add a marker
-    var marker = maps.addMarker(latitude, longitude, 'me', true, 'images/markers/m1.png');
-    var friendMarker = maps.addMarker(friendLatitude, friendLongitude, 'friend', false, 'images/markers/m2.png');
+    // add me
+    maps.addMarkers(gmap, latitude, longitude);
+    maps.addCircle(gmap, 20, latitude, longitude);
 
-    //radius
-    var radMe = 0.010 * 1600; // miles in meters
-    var radFriend = 0.003 * 1600; // miles in meters
-    maps.addCircle(marker, radMe, latitude, longitude, function(rad){
-        console.log('rad ' + rad);
+    // get player
+    $.getJSON('json/players.json').done(function(data) {
+        $.each(data, function(k,v){
+            console.log(v.life);
+        });
     });
+    maps.addMarkers(gmap, friendLatitude, friendLongitude);
+    maps.addCircle(gmap, 20, friendLatitude, friendLongitude);
 
-    maps.addCircle(friendMarker, radFriend, friendLatitude, friendLongitude, function(rad){
-        console.log('rad ' + rad);
+    var getTile = function(coord, zoom, ownerDocument) {
+        var div = ownerDocument.createElement('div');
+        div.innerHTML = coord;
+        div.style.width = this.tileSize.width + 'px';
+        div.style.height = this.tileSize.height + 'px';
+        div.style.fontSize = '10';
+        div.style.fontWeight = 'bolder';
+        div.style.border = 'dotted 1px #aaa';
+        div.style.textAlign = 'center';
+        div.style.lineHeight = this.tileSize.height + 'px';
+        return div;
+    };
+
+    gmap.addOverlayMapType({
+        index: 0,
+        tileSize: new google.maps.Size(256, 256),
+        getTile: getTile
     });
 
     //change position of marker
     window.setInterval(function() {
 
-        var latitude = window.localStorage.getItem("latitude");
-        var longitude = window.localStorage.getItem("longitude");
-        var friendLatitude = window.localStorage.getItem("latitude_other");
-        var friendLongitude = window.localStorage.getItem("longitude_other");
 
-        maps.changePosition(marker, latitude, longitude, true, function(lat, long){
-            console.log('position changed to ' + lat + " " + long);
-        });
-
-        maps.changePosition(friendMarker, friendLatitude, friendLongitude, false, function(lat, long){
-            console.log('friend position changed to ' + lat + " " + long);
-        });
 
     }, 10000);
 

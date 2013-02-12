@@ -1,0 +1,14 @@
+{
+    "1": {
+        "name":"Test1",
+        "level": 8,
+        "shield": 100,
+        "life": 80
+    },
+    "2": {
+        "name":"Test2",
+        "level": 4,
+        "shield": 100,
+        "life": 60
+    }
+}

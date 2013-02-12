@@ -9,7 +9,6 @@ var Maps = (function () {
         navigator.geolocation.watchPosition(this.onWatchSuccess, this.onWatchError, options);
     };
 
-
     Maps.prototype.onWatchSuccess = function (position) {
         // temporary, emulate movement
         var movement = (Math.floor(Math.random() * 5) + 1) * 0.0001;
@@ -33,82 +32,37 @@ var Maps = (function () {
         console.log('code: '    + error.code    + '\n' + 'message: ' + error.message + '\n');
     };
 
-    Maps.prototype.initialize = function (latitude, longitude, z, o) {
-
-        this.center    = new google.maps.LatLng(latitude, longitude);
-        this.zoom      = z;
-        this.node      = document.getElementById(o);
-        this.markers   = [];
-
-        var mapOptions = {
-            zoom:       this.zoom,
-            center:     this.center,
-            mapTypeId:  google.maps.MapTypeId.ROADMAP
-        };
-
-        this.map = new google.maps.Map(this.node,  mapOptions);
-
-        return this;
+    Maps.prototype.getGeoLocation = function(div, zoom, latitude, longitude) {
+        return new GMaps({
+            div: div,
+            zoom: zoom,
+            lat: latitude,
+            lng: longitude
+        });
     };
 
-    Maps.prototype.addMarker = function(latitude, longitude, t, c, markerImage){
-
-        var image = new google.maps.MarkerImage(markerImage,
-            new google.maps.Size(53, 52)
-        );
-
-        var marker = new google.maps.Marker({
-            position: new google.maps.LatLng(latitude, longitude),
-            map: this.map,
-            title: t || 'Click to zoom',
-            icon: image
+    Maps.prototype.addMarkers = function(gmap, latitude, longitude) {
+        gmap.addMarker({
+            lat: latitude,
+            lng: longitude,
+            title: 'Me',
+            icon: 'images/markers/m1.png',
+            infoWindow: {
+                content: '<p>Some Content about the player</p>'
+            }
         });
-
-        this.markers.push(marker);
-
-        if(c){
-            this.map.setCenter(marker.getPosition());
-        }
-        return marker;
-    }
-
-    Maps.prototype.addCircle = function(marker, rad, latitude, longitude, f) {
-
-        this.center    = new google.maps.LatLng(latitude, longitude);
-
-        var circle = new google.maps.Circle({
-            center: this.center,
-            radius: rad,
-            strokeColor: "#FF0000",
-            strokeOpacity: 0.5,
-            strokeWeight: 1,
-            fillColor: "#FF0000",
-            fillOpacity: 0.1,
-            map: this.map
-        });
-
-        circle.bindTo('center', marker, 'position');
-
-        // run callback
-        if(f){
-            f(rad);
-        }
     };
 
-    Maps.prototype.changePosition = function (marker, lat, long, c, f) {
-        var latLng = new google.maps.LatLng(lat, long);
-
-        marker.setPosition(latLng);
-
-        if(c){
-            this.map.setCenter(latLng);
-        }
-
-        // run callback
-        if(f){
-            f(lat, long);
-        }
-    }
+    Maps.prototype.addCircle = function(gmap, radius, latitude, longitude) {
+        gmap.drawCircle({
+            lat: latitude,
+            lng: longitude,
+            radius: radius,
+            strokeColor: '#131540',
+            strokeOpacity: 0.3,
+            strokeWeight: 2
+        });
+    };
 
     return Maps;
 
