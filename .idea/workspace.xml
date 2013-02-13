@@ -13,7 +13,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7693a07b-7850-4ac8-99b1-91c6c523b66d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/www/index.html" afterPath="$PROJECT_DIR$/assets/www/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/www/js/maps.js" afterPath="$PROJECT_DIR$/assets/www/js/maps.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/www/js/script.js" afterPath="$PROJECT_DIR$/assets/www/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -23,9 +22,9 @@
     <file path="$PROJECT_DIR$/res/values/strings.xml" changelist="7693a07b-7850-4ac8-99b1-91c6c523b66d" time="1360266438906" ignored="false" />
     <file path="/index.html" changelist="7693a07b-7850-4ac8-99b1-91c6c523b66d" time="1360626234294" ignored="false" />
     <file path="/fragment.java" changelist="7693a07b-7850-4ac8-99b1-91c6c523b66d" time="1360349239595" ignored="false" />
-    <file path="/script.js" changelist="7693a07b-7850-4ac8-99b1-91c6c523b66d" time="1360626922190" ignored="false" />
-    <file path="/maps.js" changelist="7693a07b-7850-4ac8-99b1-91c6c523b66d" time="1360625874354" ignored="false" />
-    <file path="/Dummy.txt" changelist="7693a07b-7850-4ac8-99b1-91c6c523b66d" time="1360626036917" ignored="false" />
+    <file path="/script.js" changelist="7693a07b-7850-4ac8-99b1-91c6c523b66d" time="1360789443992" ignored="false" />
+    <file path="/maps.js" changelist="7693a07b-7850-4ac8-99b1-91c6c523b66d" time="1360789378615" ignored="false" />
+    <file path="/Dummy.txt" changelist="7693a07b-7850-4ac8-99b1-91c6c523b66d" time="1360785200260" ignored="false" />
     <file path="/guns.json" changelist="7693a07b-7850-4ac8-99b1-91c6c523b66d" time="1360619185819" ignored="false" />
     <file path="/players.json" changelist="7693a07b-7850-4ac8-99b1-91c6c523b66d" time="1360619617461" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -89,7 +88,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="28" selection-start="1399" selection-end="1406" vertical-scroll-proportion="-20.0">
+            <state line="28" column="33" selection-start="1357" selection-end="1357" vertical-scroll-proportion="-19.103449">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -100,7 +99,7 @@
       <file leaf-file-name="maps.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/www/js/maps.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="0" selection-start="2353" selection-end="2353" vertical-scroll-proportion="0.0">
+            <state line="13" column="65" selection-start="467" selection-end="468" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -109,16 +108,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/www/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="50" selection-start="551" selection-end="551" vertical-scroll-proportion="0.22650057">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="players.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/www/json/players.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="7" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
+            <state line="42" column="41" selection-start="1425" selection-end="1425" vertical-scroll-proportion="0.43035108">
               <folding />
             </state>
           </provider>
@@ -146,13 +136,13 @@
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/assets/www/js/jquery-1.8.2.min.js" />
         <option value="$PROJECT_DIR$/assets/www/css/styles.css" />
-        <option value="$PROJECT_DIR$/assets/www/js/gmaps.js" />
         <option value="$PROJECT_DIR$/assets/www/json/guns.json" />
         <option value="$PROJECT_DIR$/assets/www/json/players.json" />
         <option value="$PROJECT_DIR$/assets/www/index.html" />
-        <option value="$PROJECT_DIR$/assets/www/js/maps.js" />
         <option value="$PROJECT_DIR$/assets/config.xml" />
         <option value="$PROJECT_DIR$/assets/www/config.xml" />
+        <option value="$PROJECT_DIR$/assets/www/js/gmaps.js" />
+        <option value="$PROJECT_DIR$/assets/www/js/maps.js" />
         <option value="$PROJECT_DIR$/assets/www/js/script.js" />
       </list>
     </option>
@@ -191,7 +181,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -355,6 +344,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -727,16 +717,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="47" selection-start="531" selection-end="531" vertical-scroll-proportion="0.43035108">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/json/players.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="7" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
+        <state line="14" column="7" selection-start="211" selection-end="211" vertical-scroll-proportion="0.3171008">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="28" selection-start="1399" selection-end="1406" vertical-scroll-proportion="-20.0">
+        <state line="28" column="33" selection-start="1357" selection-end="1357" vertical-scroll-proportion="-19.103449">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -745,7 +742,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/js/gmaps.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1330" column="41" selection-start="51861" selection-end="51862" vertical-scroll-proportion="0.40229884">
+        <state line="1197" column="52" selection-start="45726" selection-end="45737" vertical-scroll-proportion="0.33333334">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -754,21 +751,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/js/maps.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="0" selection-start="2353" selection-end="2353" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="47" selection-start="531" selection-end="531" vertical-scroll-proportion="0.43035108">
+        <state line="13" column="65" selection-start="467" selection-end="468" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="50" selection-start="551" selection-end="551" vertical-scroll-proportion="0.22650057">
+        <state line="42" column="41" selection-start="1425" selection-end="1425" vertical-scroll-proportion="0.43035108">
           <folding />
         </state>
       </provider>

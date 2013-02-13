@@ -42,7 +42,7 @@ var Maps = (function () {
     };
 
     Maps.prototype.addMarkers = function(gmap, latitude, longitude) {
-        gmap.addMarker({
+        return gmap.addMarker({
             lat: latitude,
             lng: longitude,
             title: 'Me',
