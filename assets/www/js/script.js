@@ -2,8 +2,6 @@ function init() {
     document.addEventListener("deviceready", deviceReady, true);
 }
 
-var watchID = null;
-
 function deviceReady() {
 
     //create the Maps-instance
@@ -19,28 +17,22 @@ function deviceReady() {
     // paint map
     var gmap = maps.getGeoLocation('#map', 20, latitude, longitude);
 
-    /*
-    google.maps.event.addListener(gmap.map, 'bounds_changed', function(){
-        var currentBounds = gmap.getBounds();
-        console.log('bounds_changed: ' + currentBounds.Z.b + ' - ' + currentBounds.Z.d);
-        console.log('bounds_changed: ' + currentBounds.ca.b + ' - ' + currentBounds.ca.d);
-    });
-    */
-
     // add me
     var meMarker = maps.addMarkers(gmap, latitude, longitude);
     maps.addCircle(gmap, 20, latitude, longitude);
 
+    // add friend
+    var friendMarker = maps.addMarkers(gmap, friendLatitude, friendLongitude);
+    maps.addCircle(gmap, 10, friendLatitude, friendLongitude);
+
     // TODO: get player
+/*
     $.getJSON('json/players.json').done(function(data) {
         $.each(data, function(k,v){
             console.log(v.life);
         });
     });
-
-    // add friend
-    var friendMarker = maps.addMarkers(gmap, friendLatitude, friendLongitude);
-    maps.addCircle(gmap, 20, friendLatitude, friendLongitude);
+*/
 
     // check to see if markers are inside the bounding area
     google.maps.event.addListener(gmap.map, 'idle', function(){
@@ -52,10 +44,9 @@ function deviceReady() {
         var y = currentBounds.contains(friendMarker.getPosition());
         console.log(x);
         console.log(y);
-
     });
 
-
+    // marker content
     var getTile = function(coord, zoom, ownerDocument) {
         var div = ownerDocument.createElement('div');
         div.innerHTML = coord;
@@ -69,16 +60,16 @@ function deviceReady() {
         return div;
     };
 
+    /* adds grid on the map, not used
     gmap.addOverlayMapType({
         index: 0,
         tileSize: new google.maps.Size(256, 256),
         getTile: getTile
     });
+    */
 
-    //change position of marker
+    //nothing here yet
     window.setInterval(function() {
-
-
 
     }, 10000);
 

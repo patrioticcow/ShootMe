@@ -37,7 +37,15 @@ var Maps = (function () {
             div: div,
             zoom: zoom,
             lat: latitude,
-            lng: longitude
+            lng: longitude,
+            styles:[{
+                featureType: "all",
+                stylers: [
+                    { hue: "#00aaff" },
+                    { invert_lightness: true },
+                    { saturation: 85 }
+                ]
+            }]
         });
     };
 
@@ -58,8 +66,8 @@ var Maps = (function () {
             lat: latitude,
             lng: longitude,
             radius: radius,
-            strokeColor: '#131540',
-            strokeOpacity: 0.3,
+            strokeColor: '#fff',
+            strokeOpacity: 0.6,
             strokeWeight: 2
         });
     };

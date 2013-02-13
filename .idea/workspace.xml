@@ -15,7 +15,6 @@
     <list default="true" id="7693a07b-7850-4ac8-99b1-91c6c523b66d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/www/js/maps.js" afterPath="$PROJECT_DIR$/assets/www/js/maps.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/www/js/script.js" afterPath="$PROJECT_DIR$/assets/www/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ShootMe.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,7 +22,7 @@
     <file path="/index.html" changelist="7693a07b-7850-4ac8-99b1-91c6c523b66d" time="1360626234294" ignored="false" />
     <file path="/fragment.java" changelist="7693a07b-7850-4ac8-99b1-91c6c523b66d" time="1360349239595" ignored="false" />
     <file path="/script.js" changelist="7693a07b-7850-4ac8-99b1-91c6c523b66d" time="1360789443992" ignored="false" />
-    <file path="/maps.js" changelist="7693a07b-7850-4ac8-99b1-91c6c523b66d" time="1360789378615" ignored="false" />
+    <file path="/maps.js" changelist="7693a07b-7850-4ac8-99b1-91c6c523b66d" time="1360790240806" ignored="false" />
     <file path="/Dummy.txt" changelist="7693a07b-7850-4ac8-99b1-91c6c523b66d" time="1360785200260" ignored="false" />
     <file path="/guns.json" changelist="7693a07b-7850-4ac8-99b1-91c6c523b66d" time="1360619185819" ignored="false" />
     <file path="/players.json" changelist="7693a07b-7850-4ac8-99b1-91c6c523b66d" time="1360619617461" ignored="false" />
@@ -99,7 +98,7 @@
       <file leaf-file-name="maps.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/www/js/maps.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="65" selection-start="467" selection-end="468" vertical-scroll-proportion="0.0">
+            <state line="67" column="24" selection-start="2487" selection-end="2487" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -108,7 +107,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/www/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="41" selection-start="1425" selection-end="1425" vertical-scroll-proportion="0.43035108">
+            <state line="21" column="26" selection-start="746" selection-end="746" vertical-scroll-proportion="0.41109854">
               <folding />
             </state>
           </provider>
@@ -751,14 +750,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/js/maps.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="65" selection-start="467" selection-end="468" vertical-scroll-proportion="0.0">
+        <state line="67" column="24" selection-start="2487" selection-end="2487" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="41" selection-start="1425" selection-end="1425" vertical-scroll-proportion="0.43035108">
+        <state line="21" column="26" selection-start="746" selection-end="746" vertical-scroll-proportion="0.41109854">
           <folding />
         </state>
       </provider>
