@@ -15,17 +15,19 @@
     <list default="true" id="7693a07b-7850-4ac8-99b1-91c6c523b66d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/www/js/maps.js" afterPath="$PROJECT_DIR$/assets/www/js/maps.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/www/js/script.js" afterPath="$PROJECT_DIR$/assets/www/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/www/css/styles.css" afterPath="$PROJECT_DIR$/assets/www/css/styles.css" />
     </list>
     <ignored path="ShootMe.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/res/values/strings.xml" changelist="7693a07b-7850-4ac8-99b1-91c6c523b66d" time="1360266438906" ignored="false" />
     <file path="/index.html" changelist="7693a07b-7850-4ac8-99b1-91c6c523b66d" time="1360626234294" ignored="false" />
     <file path="/fragment.java" changelist="7693a07b-7850-4ac8-99b1-91c6c523b66d" time="1360349239595" ignored="false" />
-    <file path="/script.js" changelist="7693a07b-7850-4ac8-99b1-91c6c523b66d" time="1360789443992" ignored="false" />
+    <file path="/script.js" changelist="7693a07b-7850-4ac8-99b1-91c6c523b66d" time="1360791794772" ignored="false" />
     <file path="/maps.js" changelist="7693a07b-7850-4ac8-99b1-91c6c523b66d" time="1360790240806" ignored="false" />
     <file path="/Dummy.txt" changelist="7693a07b-7850-4ac8-99b1-91c6c523b66d" time="1360785200260" ignored="false" />
     <file path="/guns.json" changelist="7693a07b-7850-4ac8-99b1-91c6c523b66d" time="1360619185819" ignored="false" />
     <file path="/players.json" changelist="7693a07b-7850-4ac8-99b1-91c6c523b66d" time="1360619617461" ignored="false" />
+    <file path="/styles.css" changelist="7693a07b-7850-4ac8-99b1-91c6c523b66d" time="1360793336733" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,16 +100,25 @@
       <file leaf-file-name="maps.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/www/js/maps.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="24" selection-start="2487" selection-end="2487" vertical-scroll-proportion="0.0">
+            <state line="40" column="123" selection-start="1713" selection-end="1792" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/www/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="26" selection-start="746" selection-end="746" vertical-scroll-proportion="0.41109854">
+            <state line="44" column="46" selection-start="1600" selection-end="1600" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/www/css/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="32" selection-start="255" selection-end="255" vertical-scroll-proportion="0.29445073">
               <folding />
             </state>
           </provider>
@@ -134,7 +145,6 @@
         <option value="$PROJECT_DIR$/src/com/shoot/me/MyActivity.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/assets/www/js/jquery-1.8.2.min.js" />
-        <option value="$PROJECT_DIR$/assets/www/css/styles.css" />
         <option value="$PROJECT_DIR$/assets/www/json/guns.json" />
         <option value="$PROJECT_DIR$/assets/www/json/players.json" />
         <option value="$PROJECT_DIR$/assets/www/index.html" />
@@ -143,6 +153,7 @@
         <option value="$PROJECT_DIR$/assets/www/js/gmaps.js" />
         <option value="$PROJECT_DIR$/assets/www/js/maps.js" />
         <option value="$PROJECT_DIR$/assets/www/js/script.js" />
+        <option value="$PROJECT_DIR$/assets/www/css/styles.css" />
       </list>
     </option>
   </component>
@@ -702,13 +713,6 @@
         <state line="1829" column="92" selection-start="32643" selection-end="32643" vertical-scroll-proportion="0.3325766" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/json/guns.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="39" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
@@ -730,15 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="33" selection-start="1357" selection-end="1357" vertical-scroll-proportion="-19.103449">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/js/gmaps.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1197" column="52" selection-start="45726" selection-end="45737" vertical-scroll-proportion="0.33333334">
@@ -748,16 +743,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="33" selection-start="1357" selection-end="1357" vertical-scroll-proportion="-19.103449">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/js/maps.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="24" selection-start="2487" selection-end="2487" vertical-scroll-proportion="0.0">
+        <state line="40" column="123" selection-start="1713" selection-end="1792" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="26" selection-start="746" selection-end="746" vertical-scroll-proportion="0.41109854">
+        <state line="44" column="46" selection-start="1600" selection-end="1600" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="32" selection-start="255" selection-end="255" vertical-scroll-proportion="0.29445073">
           <folding />
         </state>
       </provider>

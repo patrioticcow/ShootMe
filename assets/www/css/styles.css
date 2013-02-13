@@ -1,0 +1,16 @@
+.pointer{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    background: orange;
+    border-radius: 90px 0 0 0;
+    position: absolute;
+    bottom: -20px;
+    left: -50px;
+    opacity: 0.5;
+}
+
+.direction{
+    -webkit-transform: rotate(50deg);
+    -webkit-transform-origin: 100px 100px;
+}

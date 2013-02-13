@@ -38,7 +38,7 @@ var Maps = (function () {
             zoom: zoom,
             lat: latitude,
             lng: longitude,
-            styles:[{
+            styles:[{ //http://gmaps-samples-v3.googlecode.com/svn/trunk/styledmaps/wizard/index.html
                 featureType: "all",
                 stylers: [
                     { hue: "#00aaff" },

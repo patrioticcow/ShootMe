@@ -60,18 +60,28 @@ function deviceReady() {
         return div;
     };
 
-    /* adds grid on the map, not used
-    gmap.addOverlayMapType({
-        index: 0,
-        tileSize: new google.maps.Size(256, 256),
-        getTile: getTile
-    });
-    */
-
     //nothing here yet
     window.setInterval(function() {
 
-    }, 10000);
+    }, 1000);
+
+
+
+    navigator.compass.getCurrentHeading(onSuccess, onError);
+    function onSuccess(heading) {
+
+        gmap.drawOverlay({
+            lat: latitude,
+            lng: longitude,
+            content: '<div class="pointer direction"></div>'
+        });
+
+        console.log(heading);
+    }
+
+    function onError(compassError) {
+        console.log('Compass Error: ' + compassError.code);
+    }
 
 }
 
