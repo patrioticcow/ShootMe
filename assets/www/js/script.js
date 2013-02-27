@@ -19,11 +19,11 @@ function deviceReady() {
 
     // add me
     var meMarker = maps.addMarkers(gmap, latitude, longitude);
-    maps.addCircle(gmap, 20, latitude, longitude);
+    //maps.addCircle(gmap, 20, latitude, longitude);
 
     // add friend
     var friendMarker = maps.addMarkers(gmap, friendLatitude, friendLongitude);
-    maps.addCircle(gmap, 10, friendLatitude, friendLongitude);
+    //maps.addCircle(gmap, 10, friendLatitude, friendLongitude);
 
     // TODO: get player
 /*
@@ -66,14 +66,13 @@ function deviceReady() {
     }, 1000);
 
 
-
     navigator.compass.getCurrentHeading(onSuccess, onError);
-    function onSuccess(heading) {
 
+    function onSuccess(heading) {
         gmap.drawOverlay({
             lat: latitude,
             lng: longitude,
-            content: '<div class="pointer direction"></div>'
+            content: '<div>test</div>'
         });
 
         console.log(heading);
